@@ -1,0 +1,12 @@
+Source: ros-hydro-hector-marker-drawing
+Section: misc
+Priority: extra
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 7.0.50~), libeigen3-dev, ros-hydro-catkin, ros-hydro-roscpp, ros-hydro-visualization-msgs
+Homepage: http://ros.org/wiki/hector_marker_drawing
+Standards-Version: 3.9.2
+
+Package: ros-hydro-hector-marker-drawing
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-hydro-roscpp, ros-hydro-visualization-msgs
+Description: hector_marker_drawing provides convenience functions for easier publishing of visualization markers.
