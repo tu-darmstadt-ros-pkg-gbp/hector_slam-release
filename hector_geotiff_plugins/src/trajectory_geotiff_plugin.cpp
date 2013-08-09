@@ -26,8 +26,8 @@
 // SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //=================================================================================================
 
-#include <geotiff_writer/map_writer_interface.h>
-#include <geotiff_writer/map_writer_plugin_interface.h>
+#include <hector_geotiff/map_writer_interface.h>
+#include <hector_geotiff/map_writer_plugin_interface.h>
 
 #include <ros/ros.h>
 #include <hector_nav_msgs/GetRobotTrajectory.h>
@@ -114,4 +114,4 @@ void TrajectoryMapWriter::draw(MapWriterInterface *interface)
 
 //register this planner as a MapWriterPluginInterface plugin
 #include <pluginlib/class_list_macros.h>
-PLUGINLIB_DECLARE_CLASS(hector_geotiff_plugins, TrajectoryMapWriter, hector_geotiff_plugins::TrajectoryMapWriter, hector_geotiff::MapWriterPluginInterface)
+PLUGINLIB_EXPORT_CLASS(hector_geotiff_plugins::TrajectoryMapWriter, hector_geotiff::MapWriterPluginInterface)
