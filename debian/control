@@ -1,0 +1,12 @@
+Source: ros-hydro-hector-map-tools
+Section: misc
+Priority: extra
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 7.0.50~), libeigen3-dev, ros-hydro-catkin, ros-hydro-nav-msgs
+Homepage: http://ros.org/wiki/hector_map_tools
+Standards-Version: 3.9.2
+
+Package: ros-hydro-hector-map-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-hydro-nav-msgs
+Description: hector_map_tools contains some functions related to accessing information from OccupancyGridMap maps. Currently consists of a single header.
