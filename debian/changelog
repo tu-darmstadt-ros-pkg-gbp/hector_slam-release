@@ -1,0 +1,15 @@
+ros-hydro-hector-mapping (0.3.1-0precise) precise; urgency=high
+
+  * respect ``p_map_frame_``
+  * added changelogs
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Tue, 08 Oct 2013 22:00:00 -0000
+
+ros-hydro-hector-mapping (0.3.0-0precise) precise; urgency=high
+
+  * catkinized hector_slam
+  * hector_mapping: fixed multi-resolution map scan matching index bug in MapRepMultiMap.h
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Wed, 07 Aug 2013 22:00:00 -0000
+
+
