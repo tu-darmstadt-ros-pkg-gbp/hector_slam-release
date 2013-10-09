@@ -1,0 +1,12 @@
+Source: ros-hydro-hector-slam-launch
+Section: misc
+Priority: extra
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://ros.org/wiki/hector_slam_launch
+Standards-Version: 3.9.2
+
+Package: ros-hydro-hector-slam-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-hector-geotiff, ros-hydro-hector-geotiff-plugins, ros-hydro-hector-map-server, ros-hydro-hector-mapping, ros-hydro-hector-trajectory-server
+Description: hector_slam_launch contains launch files for launching hector_slam with different robot systems/setups/postprocessing scenarios.
