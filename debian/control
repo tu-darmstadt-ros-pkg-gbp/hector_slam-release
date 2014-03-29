@@ -1,0 +1,12 @@
+Source: ros-hydro-hector-geotiff
+Section: misc
+Priority: extra
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 7.0.50~), libqt4-dev, ros-hydro-catkin, ros-hydro-hector-map-tools, ros-hydro-hector-nav-msgs, ros-hydro-nav-msgs, ros-hydro-pluginlib, ros-hydro-roscpp, ros-hydro-std-msgs
+Homepage: http://ros.org/wiki/hector_geotiff
+Standards-Version: 3.9.2
+
+Package: ros-hydro-hector-geotiff
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-dev, ros-hydro-hector-map-tools, ros-hydro-hector-nav-msgs, ros-hydro-nav-msgs, ros-hydro-pluginlib, ros-hydro-roscpp, ros-hydro-std-msgs
+Description: hector_geotiff provides a node that can be used to save occupancy grid map, robot trajectory and object of interest data to RoboCup Rescue compliant GeoTiff images.
