@@ -18,4 +18,4 @@ tracks:
     ros_distro: hydro
     vcs_type: git
     vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
-    version: :{auto}
+    version: :{ask}
