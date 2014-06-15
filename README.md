@@ -1,3 +1,35 @@
+## hector_slam (indigo) - 0.3.3-0
+
+The packages in the `hector_slam` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --ros-distro indigo hector_slam --new` on `Sun, 15 Jun 2014 20:32:51 -0000`
+
+These packages were released:
+- `hector_compressed_map_transport`
+- `hector_geotiff`
+- `hector_geotiff_plugins`
+- `hector_imu_attitude_to_tf`
+- `hector_imu_tools`
+- `hector_map_server`
+- `hector_map_tools`
+- `hector_mapping`
+- `hector_marker_drawing`
+- `hector_nav_msgs`
+- `hector_slam`
+- `hector_slam_launch`
+- `hector_trajectory_server`
+
+Version of package(s) in repository `hector_slam`:
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.3-0`
+
+Versions of tools used:
+- bloom version: `0.5.9`
+- catkin_pkg version: `0.2.2`
+- rosdep version: `0.10.27`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## hector_slam (hydro) - 0.3.2-1
 
 The packages in the `hector_slam` repository were released into the `hydro` distro by running `/usr/bin/bloom-release hector_slam -t hydro -r hydro` on `Tue, 27 May 2014 11:29:06 -0000`
