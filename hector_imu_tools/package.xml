@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package>
-  <name>hector_compressed_map_transport</name>
+  <name>hector_imu_tools</name>
   <version>0.3.3</version>
   <description>
-    hector_compressed_map_transport provides means for transporting compressed map data through the use of image_transport.
+    hector_imu_tools provides some tools for processing IMU messages
   </description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
@@ -19,7 +19,7 @@
   <!-- Url tags are optional, but mutiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
-  <url type="website">http://ros.org/wiki/hector_compressed_map_transport</url>
+  <url type="website">http://ros.org/wiki/hector_imu_attitude_to_tf</url>
 
 
   <!-- Author tags are optional, mutiple are allowed, one per tag -->
@@ -39,21 +39,17 @@
   <!-- Use test_depend for packages you need only for testing: -->
   <!--   <test_depend>gtest</test_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>cmake_modules</build_depend>
-  <build_depend>cv_bridge</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>tf</build_depend>
   <build_depend>geometry_msgs</build_depend>
-  <build_depend>hector_map_tools</build_depend>
-  <build_depend>image_transport</build_depend>
-  <build_depend>nav_msgs</build_depend>
   <build_depend>sensor_msgs</build_depend>
-  <build_depend>eigen</build_depend>
-  <run_depend>cv_bridge</run_depend>
+  <build_depend>nav_msgs</build_depend>
+  
+  <run_depend>roscpp</run_depend>
+  <run_depend>tf</run_depend>
   <run_depend>geometry_msgs</run_depend>
-  <run_depend>hector_map_tools</run_depend>
-  <run_depend>image_transport</run_depend>
-  <run_depend>nav_msgs</run_depend>
   <run_depend>sensor_msgs</run_depend>
-  <run_depend>eigen</run_depend>
+  <run_depend>nav_msgs</run_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
