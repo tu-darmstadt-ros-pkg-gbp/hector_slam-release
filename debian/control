@@ -1,0 +1,12 @@
+Source: ros-hydro-hector-map-server
+Section: misc
+Priority: extra
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-hector-map-tools, ros-hydro-hector-marker-drawing, ros-hydro-hector-nav-msgs, ros-hydro-nav-msgs, ros-hydro-roscpp, ros-hydro-tf
+Homepage: http://ros.org/wiki/hector_map_server
+Standards-Version: 3.9.2
+
+Package: ros-hydro-hector-map-server
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-hector-map-tools, ros-hydro-hector-marker-drawing, ros-hydro-hector-nav-msgs, ros-hydro-nav-msgs, ros-hydro-roscpp, ros-hydro-tf
+Description: hector_map_server provides a service for retrieving the map, as well as for raycasting based obstacle queries (finds next obstacle in the map, given start and endpoint in any tf coordinate frame).
