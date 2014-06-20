@@ -1,0 +1,12 @@
+Source: ros-hydro-hector-slam
+Section: misc
+Priority: extra
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: http://ros.org/wiki/hector_slam
+Standards-Version: 3.9.2
+
+Package: ros-hydro-hector-slam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-hector-compressed-map-transport, ros-hydro-hector-geotiff, ros-hydro-hector-geotiff-plugins, ros-hydro-hector-imu-attitude-to-tf, ros-hydro-hector-map-server, ros-hydro-hector-map-tools, ros-hydro-hector-mapping, ros-hydro-hector-marker-drawing, ros-hydro-hector-nav-msgs, ros-hydro-hector-slam-launch, ros-hydro-hector-trajectory-server
+Description: The hector_slam metapackage that installs hector_mapping and related packages.
