@@ -1,0 +1,12 @@
+Source: ros-jade-hector-compressed-map-transport
+Section: misc
+Priority: extra
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-jade-catkin, ros-jade-cv-bridge, ros-jade-geometry-msgs, ros-jade-hector-map-tools, ros-jade-image-transport, ros-jade-nav-msgs, ros-jade-sensor-msgs
+Homepage: http://ros.org/wiki/hector_compressed_map_transport
+Standards-Version: 3.9.2
+
+Package: ros-jade-hector-compressed-map-transport
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-jade-cv-bridge, ros-jade-geometry-msgs, ros-jade-hector-map-tools, ros-jade-image-transport, ros-jade-nav-msgs, ros-jade-sensor-msgs
+Description: hector_compressed_map_transport provides means for transporting compressed map data through the use of image_transport.
