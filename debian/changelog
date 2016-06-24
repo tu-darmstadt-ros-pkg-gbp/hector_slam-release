@@ -1,0 +1,38 @@
+ros-kinetic-hector-map-tools (0.3.5-0wily) wily; urgency=high
+
+
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Fri, 24 Jun 2016 00:00:00 -0000
+
+ros-kinetic-hector-map-tools (0.3.4-0wily) wily; urgency=high
+
+  * -Fix severe bug when not using square size maps (would results in completely wrong obstacle distances and coordinates)
+  * Contributors: Stefan Kohlbrecher
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Sat, 07 Nov 2015 00:00:00 -0000
+
+ros-kinetic-hector-map-tools (0.3.3-0wily) wily; urgency=high
+
+
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Sun, 15 Jun 2014 00:00:00 -0000
+
+ros-kinetic-hector-map-tools (0.3.2-0wily) wily; urgency=high
+
+
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Sun, 30 Mar 2014 00:00:00 -0000
+
+ros-kinetic-hector-map-tools (0.3.1-0wily) wily; urgency=high
+
+  * added changelogs
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Wed, 09 Oct 2013 00:00:00 -0000
+
+ros-kinetic-hector-map-tools (0.3.0-0wily) wily; urgency=high
+
+  * catkinized hector_slam
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Thu, 08 Aug 2013 00:00:00 -0000
+
+
