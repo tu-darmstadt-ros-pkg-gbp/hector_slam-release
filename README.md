@@ -1,3 +1,39 @@
+## hector_slam (kinetic) - 0.3.5-0
+
+The packages in the `hector_slam` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --rosdistro kinetic hector_slam` on `Fri, 24 Jun 2016 20:46:05 -0000`
+
+These packages were released:
+- `hector_compressed_map_transport`
+- `hector_geotiff`
+- `hector_geotiff_plugins`
+- `hector_imu_attitude_to_tf`
+- `hector_imu_tools`
+- `hector_map_server`
+- `hector_map_tools`
+- `hector_mapping`
+- `hector_marker_drawing`
+- `hector_nav_msgs`
+- `hector_slam`
+- `hector_slam_launch`
+- `hector_trajectory_server`
+
+Version of package(s) in repository `hector_slam`:
+
+- upstream repository: https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.5-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## hector_slam (jade) - 0.3.5-0
 
 The packages in the `hector_slam` repository were released into the `jade` distro by running `/usr/bin/bloom-release --track jade --rosdistro jade hector_slam` on `Fri, 24 Jun 2016 20:28:36 -0000`
