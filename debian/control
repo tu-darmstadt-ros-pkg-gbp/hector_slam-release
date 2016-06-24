@@ -1,0 +1,12 @@
+Source: ros-kinetic-hector-imu-tools
+Section: misc
+Priority: extra
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-tf
+Homepage: http://ros.org/wiki/hector_imu_attitude_to_tf
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-hector-imu-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-geometry-msgs, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-tf
+Description: hector_imu_tools provides some tools for processing IMU messages
