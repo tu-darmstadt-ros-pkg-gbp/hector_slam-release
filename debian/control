@@ -1,0 +1,12 @@
+Source: ros-kinetic-hector-map-server
+Section: misc
+Priority: extra
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-hector-map-tools, ros-kinetic-hector-marker-drawing, ros-kinetic-hector-nav-msgs, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-tf
+Homepage: http://ros.org/wiki/hector_map_server
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-hector-map-server
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-hector-map-tools, ros-kinetic-hector-marker-drawing, ros-kinetic-hector-nav-msgs, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-tf
+Description: hector_map_server provides a service for retrieving the map, as well as for raycasting based obstacle queries (finds next obstacle in the map, given start and endpoint in any tf coordinate frame).
