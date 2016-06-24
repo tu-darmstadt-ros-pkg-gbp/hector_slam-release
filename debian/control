@@ -1,0 +1,12 @@
+Source: ros-kinetic-hector-compressed-map-transport
+Section: misc
+Priority: extra
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-kinetic-catkin, ros-kinetic-cv-bridge, ros-kinetic-geometry-msgs, ros-kinetic-hector-map-tools, ros-kinetic-image-transport, ros-kinetic-nav-msgs, ros-kinetic-sensor-msgs
+Homepage: http://ros.org/wiki/hector_compressed_map_transport
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-hector-compressed-map-transport
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-kinetic-cv-bridge, ros-kinetic-geometry-msgs, ros-kinetic-hector-map-tools, ros-kinetic-image-transport, ros-kinetic-nav-msgs, ros-kinetic-sensor-msgs
+Description: hector_compressed_map_transport provides means for transporting compressed map data through the use of image_transport.
