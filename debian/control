@@ -1,0 +1,12 @@
+Source: ros-kinetic-hector-slam
+Section: misc
+Priority: extra
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/hector_slam
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-hector-slam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-hector-compressed-map-transport, ros-kinetic-hector-geotiff, ros-kinetic-hector-geotiff-plugins, ros-kinetic-hector-imu-attitude-to-tf, ros-kinetic-hector-map-server, ros-kinetic-hector-map-tools, ros-kinetic-hector-mapping, ros-kinetic-hector-marker-drawing, ros-kinetic-hector-nav-msgs, ros-kinetic-hector-slam-launch, ros-kinetic-hector-trajectory-server
+Description: The hector_slam metapackage that installs hector_mapping and related packages.
