@@ -1,0 +1,25 @@
+From ceca7d9cc4236975a24820e12aa740a58de5893d Mon Sep 17 00:00:00 2001
+From: Johannes Meyer <johannes@intermodalics.eu>
+Date: Mon, 27 Jun 2016 09:54:33 +0200
+Subject: [PATCH] hector_mapping: readded build dependency cmake_modules for
+ indigo
+
+---
+ package.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/package.xml b/package.xml
+index adda2e0..22a48f2 100644
+--- a/package.xml
++++ b/package.xml
+@@ -39,6 +39,7 @@
+   <!-- Use test_depend for packages you need only for testing: -->
+   <!--   <test_depend>gtest</test_depend> -->
+   <buildtool_depend>catkin</buildtool_depend>
++  <build_depend>cmake_modules</build_depend>
+   <build_depend>cv_bridge</build_depend>
+   <build_depend>geometry_msgs</build_depend>
+   <build_depend>hector_map_tools</build_depend>
+-- 
+1.9.1
+
