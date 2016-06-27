@@ -1,0 +1,12 @@
+Source: ros-indigo-hector-slam-launch
+Section: misc
+Priority: extra
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/hector_slam_launch
+Standards-Version: 3.9.2
+
+Package: ros-indigo-hector-slam-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-hector-geotiff, ros-indigo-hector-geotiff-plugins, ros-indigo-hector-map-server, ros-indigo-hector-mapping, ros-indigo-hector-trajectory-server
+Description: hector_slam_launch contains launch files for launching hector_slam with different robot systems/setups/postprocessing scenarios.
