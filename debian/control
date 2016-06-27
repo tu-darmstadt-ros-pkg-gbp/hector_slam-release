@@ -1,0 +1,12 @@
+Source: ros-indigo-hector-slam
+Section: misc
+Priority: extra
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/hector_slam
+Standards-Version: 3.9.2
+
+Package: ros-indigo-hector-slam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-hector-compressed-map-transport, ros-indigo-hector-geotiff, ros-indigo-hector-geotiff-plugins, ros-indigo-hector-imu-attitude-to-tf, ros-indigo-hector-map-server, ros-indigo-hector-map-tools, ros-indigo-hector-mapping, ros-indigo-hector-marker-drawing, ros-indigo-hector-nav-msgs, ros-indigo-hector-slam-launch, ros-indigo-hector-trajectory-server
+Description: The hector_slam metapackage that installs hector_mapping and related packages.
