@@ -1,0 +1,12 @@
+Source: ros-indigo-hector-imu-tools
+Section: misc
+Priority: extra
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-tf
+Homepage: http://ros.org/wiki/hector_imu_attitude_to_tf
+Standards-Version: 3.9.2
+
+Package: ros-indigo-hector-imu-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-geometry-msgs, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-tf
+Description: hector_imu_tools provides some tools for processing IMU messages
