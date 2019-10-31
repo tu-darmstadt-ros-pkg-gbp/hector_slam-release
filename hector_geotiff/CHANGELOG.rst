@@ -2,6 +2,11 @@
 Changelog for package hector_geotiff
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.6 (2019-10-31)
+------------------
+* Update geotiff draw interface to support different shapes
+* Contributors: Stefan Kohlbrecher
+
 0.3.5 (2016-06-24)
 ------------------
 * Use the FindEigen3.cmake module provided by Eigen
