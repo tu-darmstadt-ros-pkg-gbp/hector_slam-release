@@ -1,0 +1,12 @@
+Source: ros-melodic-hector-trajectory-server
+Section: misc
+Priority: optional
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-hector-map-tools, ros-melodic-hector-nav-msgs, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-tf
+Homepage: http://ros.org/wiki/hector_trajectory_server
+Standards-Version: 3.9.2
+
+Package: ros-melodic-hector-trajectory-server
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-hector-map-tools, ros-melodic-hector-nav-msgs, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-tf
+Description: hector_trajectory_server keeps track of tf trajectories extracted from tf data and makes this data accessible via a service and topic.
