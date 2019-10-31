@@ -1,0 +1,12 @@
+Source: ros-melodic-hector-slam-launch
+Section: misc
+Priority: optional
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://ros.org/wiki/hector_slam_launch
+Standards-Version: 3.9.2
+
+Package: ros-melodic-hector-slam-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-hector-geotiff, ros-melodic-hector-geotiff-plugins, ros-melodic-hector-map-server, ros-melodic-hector-mapping, ros-melodic-hector-trajectory-server
+Description: hector_slam_launch contains launch files for launching hector_slam with different robot systems/setups/postprocessing scenarios.
