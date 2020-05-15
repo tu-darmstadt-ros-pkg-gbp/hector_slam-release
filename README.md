@@ -1,3 +1,39 @@
+## hector_slam (melodic) - 0.4.1-1
+
+The packages in the `hector_slam` repository were released into the `melodic` distro by running `/usr/bin/bloom-release hector_slam --rosdistro melodic` on `Fri, 15 May 2020 16:58:47 -0000`
+
+These packages were released:
+- `hector_compressed_map_transport`
+- `hector_geotiff`
+- `hector_geotiff_plugins`
+- `hector_imu_attitude_to_tf`
+- `hector_imu_tools`
+- `hector_map_server`
+- `hector_map_tools`
+- `hector_mapping`
+- `hector_marker_drawing`
+- `hector_nav_msgs`
+- `hector_slam`
+- `hector_slam_launch`
+- `hector_trajectory_server`
+
+Version of package(s) in repository `hector_slam`:
+
+- upstream repository: https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
+- release repository: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_slam-release.git
+- rosdistro version: `0.4.0-1`
+- old version: `0.4.0-1`
+- new version: `0.4.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.18`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.1`
+- vcstools version: `0.1.42`
+
+
 ## hector_slam (melodic) - 0.4.0-1
 
 The packages in the `hector_slam` repository were released into the `melodic` distro by running `/usr/bin/bloom-release hector_slam --track melodic --rosdistro melodic --new-track` on `Thu, 31 Oct 2019 10:15:28 -0000`
