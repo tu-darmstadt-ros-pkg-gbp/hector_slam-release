@@ -2,6 +2,16 @@
 Changelog for package hector_map_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.0 (2020-12-17)
+------------------
+* Moved hector_geotiff launch files to separate package to solve cyclic dependency.
+  Clean up for noetic release.
+* Bump CMake version to avoid CMP0048 warning
+* Contributors: Marius Schnaubelt, Stefan Fabian
+
+0.4.1 (2020-05-15)
+------------------
+
 0.3.6 (2019-10-31)
 ------------------
 * hector_map_tools: Use the FindEigen3.cmake module provided by Eigen
@@ -11,9 +21,6 @@ Changelog for package hector_map_tools
   Same as 1251d9dc20854f48da116eed25780c103a5bd003, but package hector_map_tools was not updated
   back then.
 * Contributors: Johannes Meyer
-
-0.4.1 (2020-05-15)
-------------------
 
 0.3.5 (2016-06-24)
 ------------------

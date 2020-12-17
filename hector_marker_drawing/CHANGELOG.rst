@@ -2,10 +2,17 @@
 Changelog for package hector_marker_drawing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.3.6 (2019-10-31)
+0.5.0 (2020-12-17)
 ------------------
+* Moved hector_geotiff launch files to separate package to solve cyclic dependency.
+  Clean up for noetic release.
+* Bump CMake version to avoid CMP0048 warning
+* Contributors: Marius Schnaubelt, Stefan Fabian
 
 0.4.1 (2020-05-15)
+------------------
+
+0.3.6 (2019-10-31)
 ------------------
 
 0.3.5 (2016-06-24)

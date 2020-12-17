@@ -2,18 +2,26 @@
 Changelog for package hector_mapping
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.3.6 (2019-10-31)
+0.5.0 (2020-12-17)
 ------------------
-* Merge pull request `#49 <https://github.com/tu-darmstadt-ros-pkg/hector_slam/issues/49>`_ from davidbsp/catkin
-  populate child_frame_id in odometry msg
-* Added child_frame_id in hector mapping's odometry msg
-* Contributors: David Portugal, Johannes Meyer
+* Moved hector_geotiff launch files to separate package to solve cyclic dependency.
+  Clean up for noetic release.
+* Bump CMake version to avoid CMP0048 warning
+* fixed compilation under noetic
+* Contributors: Marius Schnaubelt, Stefan Fabian
 
 0.4.1 (2020-05-15)
 ------------------
 * Remove unnecessary boost signals find_package
   With Boost >1.69 hector_mapping won't build. Furthermore, hector_mapping doesn't use signals anywhere.
 * Contributors: Sam Pfeiffer
+
+0.3.6 (2019-10-31)
+------------------
+* Merge pull request `#49 <https://github.com/tu-darmstadt-ros-pkg/hector_slam/issues/49>`_ from davidbsp/catkin
+  populate child_frame_id in odometry msg
+* Added child_frame_id in hector mapping's odometry msg
+* Contributors: David Portugal, Johannes Meyer
 
 0.3.5 (2016-06-24)
 ------------------

@@ -36,10 +36,9 @@
 #include <nav_msgs/OccupancyGrid.h>
 #include <nav_msgs/MapMetaData.h>
 
-#include <QtGui/QImage>
-#include <QtGui/QApplication>
-#include <QtGui/QFont>
-#include <QtGui/QPen>
+#include <QImage>
+#include <QApplication>
+#include <QFont>
 
 #include <hector_map_tools/HectorMapTools.h>
 
@@ -117,6 +116,7 @@ protected:
   QImage image;
   QImage checkerboard_cache;
   QApplication* app;
+  QString font_family_;
   QFont map_draw_font_;
 
   HectorMapTools::CoordinateTransformer<float> world_map_transformer_;
@@ -124,9 +124,6 @@ protected:
   HectorMapTools::CoordinateTransformer<float> world_geo_transformer_;
 
   nav_msgs::MapMetaData cached_map_meta_data_;
-
-  int fake_argc_;
-  char** fake_argv_;
 };
 
 }
