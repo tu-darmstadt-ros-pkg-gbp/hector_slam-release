@@ -1,0 +1,48 @@
+ros-noetic-hector-imu-tools (0.5.0-1buster) buster; urgency=high
+
+  * Moved hector_geotiff launch files to separate package to solve cyclic dependency.
+    Clean up for noetic release.
+  * Bump CMake version to avoid CMP0048 warning
+  * Contributors: Marius Schnaubelt, Stefan Fabian
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Thu, 17 Dec 2020 00:00:00 -0000
+
+ros-noetic-hector-imu-tools (0.4.1-1buster) buster; urgency=high
+
+
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Fri, 15 May 2020 00:00:00 -0000
+
+ros-noetic-hector-imu-tools (0.3.6-1buster) buster; urgency=high
+
+
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Thu, 31 Oct 2019 00:00:00 -0000
+
+ros-noetic-hector-imu-tools (0.3.5-1buster) buster; urgency=high
+
+
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Fri, 24 Jun 2016 00:00:00 -0000
+
+ros-noetic-hector-imu-tools (0.3.4-1buster) buster; urgency=high
+
+  * Fix sim setup
+  * remap for bertl setup
+  * Contributors: Florian Kunz, kohlbrecher
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Sat, 07 Nov 2015 00:00:00 -0000
+
+ros-noetic-hector-imu-tools (0.3.3-1buster) buster; urgency=high
+
+  * hector_imu_tools: Basics of simple height etimation
+  * hector_imu_tools: Add tf publishers in hector_imu_tools
+  * hector_imu_tools: Also write out fake odometry
+  * hector_imu_tools: Fix typo
+  * hector_imu_tools: Prevent race conditions in slam, formatting
+  * hector_imu_tools: Small executable for generating a IMU message out of a (2d) pose and roll/pitch imu message
+  * Contributors: Stefan Kohlbrecher
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Sun, 15 Jun 2014 00:00:00 -0000
+
+
