@@ -1,0 +1,12 @@
+Source: ros-noetic-hector-slam-launch
+Section: misc
+Priority: optional
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://ros.org/wiki/hector_slam_launch
+Standards-Version: 3.9.2
+
+Package: ros-noetic-hector-slam-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-hector-geotiff, ros-noetic-hector-geotiff-plugins, ros-noetic-hector-map-server, ros-noetic-hector-mapping, ros-noetic-hector-trajectory-server, ros-noetic-rviz, ros-noetic-tf, ros-noetic-topic-tools
+Description: hector_slam_launch contains launch files for launching hector_slam with different robot systems/setups/postprocessing scenarios.
