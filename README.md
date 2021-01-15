@@ -1,3 +1,40 @@
+## hector_slam (noetic) - 0.5.1-1
+
+The packages in the `hector_slam` repository were released into the `noetic` distro by running `/usr/local/bin/bloom-release hector_slam --rosdistro noetic` on `Fri, 15 Jan 2021 12:27:34 -0000`
+
+These packages were released:
+- `hector_compressed_map_transport`
+- `hector_geotiff`
+- `hector_geotiff_launch`
+- `hector_geotiff_plugins`
+- `hector_imu_attitude_to_tf`
+- `hector_imu_tools`
+- `hector_map_server`
+- `hector_map_tools`
+- `hector_mapping`
+- `hector_marker_drawing`
+- `hector_nav_msgs`
+- `hector_slam`
+- `hector_slam_launch`
+- `hector_trajectory_server`
+
+Version of package(s) in repository `hector_slam`:
+
+- upstream repository: https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
+- release repository: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_slam-release.git
+- rosdistro version: `0.5.0-1`
+- old version: `0.5.0-1`
+- new version: `0.5.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## hector_slam (noetic) - 0.5.0-1
 
 The packages in the `hector_slam` repository were released into the `noetic` distro by running `/usr/local/bin/bloom-release hector_slam --track noetic --rosdistro noetic --new-track` on `Thu, 17 Dec 2020 15:21:42 -0000`
