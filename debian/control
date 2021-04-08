@@ -1,0 +1,12 @@
+Source: ros-noetic-hector-geotiff
+Section: misc
+Priority: optional
+Maintainer: Johannes Meyer <meyer@fsr.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), libqt5widgets5, qtbase5-dev, ros-noetic-catkin, ros-noetic-hector-map-tools, ros-noetic-hector-nav-msgs, ros-noetic-nav-msgs, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-std-msgs
+Homepage: http://ros.org/wiki/hector_geotiff
+Standards-Version: 3.9.2
+
+Package: ros-noetic-hector-geotiff
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5widgets5, qt5-image-formats-plugins, qtbase5-dev, ros-noetic-hector-map-tools, ros-noetic-hector-nav-msgs, ros-noetic-nav-msgs, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-std-msgs
+Description: hector_geotiff provides a node that can be used to save occupancy grid map, robot trajectory and object of interest data to RoboCup Rescue compliant GeoTiff images.
