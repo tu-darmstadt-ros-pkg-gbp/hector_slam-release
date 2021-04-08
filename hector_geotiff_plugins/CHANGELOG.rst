@@ -2,6 +2,9 @@
 Changelog for package hector_geotiff_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.2 (2021-04-08)
+------------------
+
 0.5.1 (2021-01-15)
 ------------------
 * Fixed "SEVERE WARNING" by pluginloader when killing geotiff node.
