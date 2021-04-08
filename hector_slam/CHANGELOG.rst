@@ -2,6 +2,9 @@
 Changelog for package hector_slam
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.2 (2021-04-08)
+------------------
+
 0.5.1 (2021-01-15)
 ------------------
 * Added hector_geotiff_launch to hector_slam metapackge.
