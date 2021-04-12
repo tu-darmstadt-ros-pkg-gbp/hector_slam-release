@@ -1,0 +1,12 @@
+Source: ros-noetic-hector-geotiff-launch
+Section: misc
+Priority: optional
+Maintainer: Stefan Fabian <fabian@sim.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://ros.org/wiki/hector_geotiff
+Standards-Version: 3.9.2
+
+Package: ros-noetic-hector-geotiff-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-hector-geotiff, ros-noetic-hector-geotiff-plugins, ros-noetic-hector-trajectory-server
+Description: Contains launch files for the hector_geotiff mapper.
